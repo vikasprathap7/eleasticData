@@ -1,0 +1,155 @@
+body {
+  background-color: #263248;
+  color: #fff;
+}
+
+/* navbar custom colors */
+.navbar-default {
+  background-color: #263248;
+  border-color: #263248;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffa500;
+  background-color: #263248;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffa500;
+  background-color: #263248;
+}
+.navbar-default .navbar-toggle {
+  border-color: #263248;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #263248;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffa500;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffa500;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffa500;
+    background-color: #263248;
+  }
+}
+
+/* align h1 on homepage center */
+.container h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 35px;
+}
+
+/* styling for links on homepage */
+.homeItem h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.homeItem h2 > a {
+  color: orange;
+}
+
+.homeItem h2 > a:hover {
+  text-decoration: none;
+  color: #7E8AA2;
+  cursor: pointer;;
+}
+
+/* styling for links on component pages */
+.seeAlsoLink {
+  color: orange;
+}
+
+a.seeAlsoLink:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+a.seeAlsoLink:focus {
+  color: orange;
+}
+
+a.crossLink {
+  color: #fff;
+}
+
+a.crossLink:hover {
+  /*color: orange;*/
+  /*cursor: pointer;*/
+  text-decoration: none;
+}
+
+a.crossLink:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.compBlock {
+  margin-bottom: 25px;
+}
+
+/* change color of titles before properties */
+h2 > strong {
+  color: #7E8AA2;
+}
+
+p > strong {
+  color: #7E8AA2;
+}
+
+/* class to add to anything that needs to be hidden/shown at specific times */
+.hidden {
+  display: none;
+}
+
+.commaList:after {
+  content: ', ';
+}
+
+.commaList:last-child:after {
+  content: '';
+}
